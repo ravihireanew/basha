@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .logo h1 {
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+header nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#about p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    width: 60%;
+    margin: 20px auto;
+    color: #666;
+}
+
+#skills {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    width: 150px;
+    margin: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill i {
+    font-size: 3rem;
+    color: #6200ea;
+}
+
+.skill p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.skill span {
+    color: #777;
+}
+
+#projects {
+    padding: 50px;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects li {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+#recommendations {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.recommendations-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recommendation {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leave-recommendation {
+    text-align: center;
+    margin-top: 40px;
+}
+
+textarea {
+    width: 70%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4500b5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: white;
+}
